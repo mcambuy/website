@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(0,36,25,1) 0%, rgba(46,228,150,1) 65%);
+    text-justify:  center;
+}
+h1 {
+    color:yellow;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+h3 {
+    color: yellow;
+    font-family: fantasy;
+
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-size:20px ;
+}
+img {
+    width: 50px;
+    border-radius:100px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size:15px ;
+    color: black;
+    
+}
+
+
